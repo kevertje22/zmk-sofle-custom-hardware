@@ -6,7 +6,7 @@
 #define L_NAV          2
 #define L_FUNC         3
 #define L_MOUSE        4 
-#define L_JUMP         5 
+#define L_STUFF        5 
 #define L_TEST         6
 #define L_COLEMAK      7
 
@@ -75,10 +75,10 @@
         };
 
 
-        combo_asdl_to_jump {
+        combo_asdl_to_stuff {
             timeout-ms = <50>;
             key-positions = <27 28 29 36>;
-            bindings = <&to L_JUMP>;
+            bindings = <&to L_STUFF>;
         };
 
 
@@ -157,7 +157,7 @@
 
     // but just &kp LC(C) is simpler than macro_copy..
     macros {
-        macro0: macro0 {
+        macro1: macro1 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         bindings = 
@@ -175,6 +175,26 @@
             <&kp EXCL>,
             <&kp SPACE>;
         };
+        macro2: macro2 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = 
+            <&kp X>,
+            <&kp SPACE>;
+        };
+        macro3: macro3 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = 
+            <&kp X>,
+            <&kp SPACE>;
+        };
+        macro4: macro4 {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+            bindings = <&kp V>, <&kp N1>, <&kp N3> ;
+        };
+
     //    macro_copy: macro_copy {
     //    compatible = "zmk,behavior-macro";
     //    #binding-cells = <0>;
@@ -301,19 +321,19 @@
 
 
 
-    // Layer Jump
+    // Layer Stuff
     ///////////////////////////////////
     layer5 {
     bindings = <
 
        &none  &none &none &none &none &none       &kp UP_ARROW           &none &none &none &none &none &none
-            &kp ESC &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &to L_COLEMAK &to L_TEST &to L_MOUSE &to L_FUNC &to L_JUMP &kp DEL
+            &kp ESC &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &to L_COLEMAK &to L_TEST &to L_MOUSE &to L_FUNC &to L_STUFF &kp DEL
             &caps_word &kp A &to L_FUNC &mt LCTRL D &mt LSHIFT F &kp G  &kp LEFT_ARROW    &kp X &mt LSHIFT J &mt LCTRL K &mt LALT L &kp SEMI &kp APOS
-            &kp LSHIFT &kp Z &kp X &kp C &macro0 &kp B  &kp RIGHT_ARROW   &kp N &to L_MOUSE &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
+            &kp LSHIFT &macro1 &macro2 &macro3 &macro4 &kp B  &kp RIGHT_ARROW   &kp N &to L_MOUSE &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
                                                   &kp C_MUTE
 &none &none     &kp LGUI &trans &lt L_MOUSE ESC  &kp ENTER         &lt L_NAV ENTER &lt L_SYMNUM SPACE &lt L_FUNC BACKSPACE      &none &none
 
-            >; display-name = "Jump"; sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>; };
+            >; display-name = "Stuff"; sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>; };
 
 
 
