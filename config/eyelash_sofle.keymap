@@ -185,9 +185,7 @@
         macro3: macro3 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        bindings = 
-            <&kp X>,
-            <&kp SPACE>;
+            bindings = <&kp V>, <&kp N1>, <&kp N3> ;
         };
         macro4: macro4 {
         compatible = "zmk,behavior-macro";
