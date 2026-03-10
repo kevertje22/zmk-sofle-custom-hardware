@@ -210,980 +210,672 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp RET &kp RET &kp W &kp E &kp R &kp EQUAL &kp C &kp A &kp P &kp S &kp W &kp RET &kp Y &kp U &kp I &mymacro2>;
+            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp RET &kp RET &kp C &kp O &kp M &kp B &kp O &kp S &kp COLON &kp SPACE &kp SPACE &kp W &kp E &kp R &kp GT &mymacro2>;
         };
         mymacro2: mymacro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp EQUAL &kp L &kp UNDER &kp B &kp A &kp S &kp E &kp RET &kp I &kp O &kp P &kp EQUAL &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp RET &mymacro3>;
+            bindings = <&kp C &kp A &kp P &kp S &kp W &kp COMMA &kp SPACE &kp SPACE &kp Y &kp U &kp I &kp GT &kp L &kp UNDER &kp B &kp A &kp S &kp E &kp COMMA &kp SPACE &mymacro3>;
         };
         mymacro3: mymacro3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp RET &kp C &kp V &kp B &kp EQUAL &kp B &kp O &kp O &kp T &kp RET &kp A &kp S &kp D &kp L &kp EQUAL &kp M &kp A &kp C &kp R &kp O &mymacro4>;
+            bindings = <&kp SPACE &kp I &kp O &kp P &kp GT &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp COMMA &kp SPACE &kp C &kp V &kp B &kp GT &kp B &kp O &mymacro4>;
         };
         mymacro4: mymacro4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp SPACE &kp LPAR &kp V &kp COMMA &kp C &kp RPAR &kp RET &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp MINUS &kp A &kp L &kp T &kp MINUS &mymacro5>;
+            bindings = <&kp O &kp T &kp COMMA &kp SPACE &kp SPACE &kp SPACE &kp A &kp S &kp D &kp L &kp GT &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp LPAR &kp M &mymacro5>;
         };
         mymacro5: mymacro5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp A &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp MINUS &kp S &kp H &kp I &kp F &kp T &kp MINUS &kp S &kp RET &kp S &kp T &kp I &mymacro6>;
+            bindings = <&kp A &kp C &kp R &kp O &kp COLON &kp SPACE &kp V &kp UNDER &kp E &kp R &kp S &kp I &kp O &kp N &kp COMMA &kp SPACE &kp C &kp UNDER &kp H &kp E &mymacro6>;
         };
         mymacro6: mymacro6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp C &kp K &kp Y &kp MINUS &kp C &kp T &kp R &kp L &kp MINUS &kp C &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp MINUS &kp S &kp H &mymacro7>;
+            bindings = <&kp A &kp T &kp S &kp H &kp E &kp E &kp T &kp RPAR &kp RET &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp SPACE &kp C &kp O &kp M &mymacro7>;
         };
         mymacro7: mymacro7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp I &kp F &kp T &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp MINUS &kp F &kp U &kp N &kp C &kp MINUS &kp U &kp RET &kp S &kp T &mymacro8>;
+            bindings = <&kp B &kp O &kp S &kp COMMA &kp SPACE &kp S &kp Y &kp M &kp M &kp E &kp T &kp R &kp I &kp C &kp SPACE &kp F &kp I &kp N &kp G &kp E &mymacro8>;
         };
         mymacro8: mymacro8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp I &kp C &kp K &kp Y &kp MINUS &kp S &kp Y &kp M &kp MINUS &kp Y &kp RET &kp RET &kp L &kp UNDER &kp N &kp A &kp V &kp SPACE &kp I &kp N &mymacro9>;
+            bindings = <&kp R &kp S &kp COLON &kp SPACE &kp SPACE &kp A &kp L &kp T &kp MINUS &kp A &kp COMMA &kp SPACE &kp SPACE &kp S &kp H &kp I &kp F &kp T &kp MINUS &kp S &mymacro9>;
         };
         mymacro9: mymacro9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N &kp E &kp R &kp MINUS &kp T &kp H &kp U &kp M &kp B &kp S &kp RET &kp L &kp UNDER &kp S &kp Y &kp M &kp SPACE &kp M &kp I &kp D &mymacro10>;
+            bindings = <&kp COMMA &kp SPACE &kp SPACE &kp C &kp T &kp R &kp L &kp MINUS &kp C &kp COMMA &kp SPACE &kp SPACE &kp S &kp H &kp I &kp F &kp T &kp MINUS &kp P &kp I &mymacro10>;
         };
         mymacro10: mymacro10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp D &kp L &kp E &kp MINUS &kp T &kp H &kp U &kp M &kp B &kp S &kp RET &kp RET &kp L &kp UNDER &kp B &kp A &kp S &kp E &kp COLON &kp SPACE &mymacro11>;
+            bindings = <&kp N &kp K &kp I &kp E &kp S &kp SPACE &kp COMMA &kp SPACE &kp SPACE &kp F &kp U &kp N &kp C &kp MINUS &kp U &kp COMMA &kp SPACE &kp SPACE &kp S &kp Y &mymacro11>;
         };
         mymacro11: mymacro11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp Q &kp W &kp E &kp R &kp T &kp SPACE &kp Y &kp U &kp I &kp O &kp P &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro12>;
+            bindings = <&kp M &kp MINUS &kp Y &kp RET &kp RET &kp B &kp A &kp S &kp E &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp Q &kp W &kp E &kp R &kp T &kp SPACE &kp Y &mymacro12>;
         };
         mymacro12: mymacro12 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp A &kp S &kp D &kp F &kp G &kp SPACE &kp H &kp J &kp K &kp L &kp SEMI &kp LT &kp A &kp P &kp O &kp S &mymacro13>;
+            bindings = <&kp U &kp I &kp O &kp P &kp RET &kp Y &kp U &kp I &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp A &kp S &kp D &kp F &kp G &kp SPACE &kp H &mymacro13>;
         };
         mymacro13: mymacro13 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp GT &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp N &kp M &mymacro14>;
+            bindings = <&kp J &kp K &kp L &kp SEMI &kp LT &kp A &kp P &kp O &kp S &kp GT &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Z &mymacro14>;
         };
         mymacro14: mymacro14 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp COMMA &kp DOT &kp FSLH &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp E &mymacro15>;
+            bindings = <&kp X &kp C &kp V &kp B &kp SPACE &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp FSLH &kp SPACE &mymacro15>;
         };
         mymacro15: mymacro15 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp C &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp N &kp U &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &mymacro16>;
+            bindings = <&kp I &kp S &kp SPACE &kp A &kp L &kp S &kp O &kp SPACE &kp R &kp G &kp U &kp I &kp RPAR &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro16>;
         };
         mymacro16: mymacro16 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp T &kp A &kp B &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &mymacro17>;
+            bindings = <&kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &mymacro17>;
         };
         mymacro17: mymacro17 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp N &kp U &kp M &kp FSLH &kp S &mymacro18>;
+            bindings = <&kp A &kp C &kp E &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp T &kp A &kp B &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro18>;
         };
         mymacro18: mymacro18 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp R &kp A &kp L &kp T &kp FSLH &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &mymacro19>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &mymacro19>;
         };
         mymacro19: mymacro19 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp RET &kp RET &kp L &kp UNDER &kp S &kp Y &kp M &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT &kp SPACE &kp CARET &kp AMPS &mymacro20>;
+            bindings = <&kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp R &kp A &kp L &kp T &kp FSLH &kp B &kp A &kp C &kp K &kp S &mymacro20>;
         };
         mymacro20: mymacro20 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp ASTRK &kp LPAR &kp RPAR &kp PIPE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp MINUS &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &mymacro21>;
+            bindings = <&kp P &kp A &kp C &kp E &kp RET &kp RET &kp S &kp Y &kp M &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT &kp SPACE &mymacro21>;
         };
         mymacro21: mymacro21 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp PLUS &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp UNDER &kp LBKT &kp RBKT &mymacro22>;
+            bindings = <&kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp PIPE &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp MINUS &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &mymacro22>;
         };
         mymacro22: mymacro22 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp LBRC &kp RBRC &kp PLUS &kp SPACE &kp BSLH &kp EQUAL &kp COMMA &kp DOT &kp FSLH &kp GRAVE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro23>;
+            bindings = <&kp SPACE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp PLUS &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp UNDER &kp LBKT &kp RBKT &kp LBRC &kp RBRC &mymacro23>;
         };
         mymacro23: mymacro23 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp U &kp N &kp D &kp E &kp R &kp S &kp C &kp O &kp R &kp E &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp M &mymacro24>;
+            bindings = <&kp PLUS &kp SPACE &kp BSLH &kp EQUAL &kp COMMA &kp DOT &kp FSLH &kp GRAVE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp U &kp N &kp D &kp E &mymacro24>;
         };
         mymacro24: mymacro24 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp I &kp N &kp U &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro25>;
+            bindings = <&kp R &kp S &kp C &kp O &kp R &kp E &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp M &kp I &kp N &kp U &kp S &mymacro25>;
         };
         mymacro25: mymacro25 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &mymacro26>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &mymacro26>;
         };
         mymacro26: mymacro26 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N &kp S &kp RET &kp RET &kp L &kp UNDER &kp N &kp A &kp V &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro27>;
+            bindings = <&kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp RET &mymacro27>;
         };
         mymacro27: mymacro27 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp B &kp O &kp O &kp T &kp L &kp O &kp A &kp D &kp E &kp R &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &mymacro28>;
+            bindings = <&kp N &kp A &kp V &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp B &kp O &kp O &kp T &kp L &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &mymacro28>;
         };
         mymacro28: mymacro28 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro29>;
+            bindings = <&kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &mymacro29>;
         };
         mymacro29: mymacro29 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &mymacro30>;
+            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp P &kp A &kp S &mymacro30>;
         };
         mymacro30: mymacro30 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp SPACE &kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp C &kp U &mymacro31>;
+            bindings = <&kp T &kp E &kp SPACE &kp SPACE &kp C &kp O &kp P &kp Y &kp SPACE &kp SPACE &kp SPACE &kp C &kp U &kp T &kp SPACE &kp SPACE &kp SPACE &kp U &kp N &kp D &mymacro31>;
         };
         mymacro31: mymacro31 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro32>;
+            bindings = <&kp O &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &mymacro32>;
         };
         mymacro32: mymacro32 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp L &kp A &kp L &kp T &kp SPACE &kp L &kp C &mymacro33>;
+            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp SPACE &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp SPACE &mymacro33>;
         };
         mymacro33: mymacro33 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp R &kp L &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro34>;
+            bindings = <&kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp E &mymacro34>;
         };
         mymacro34: mymacro34 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp E &kp F &kp T &mymacro35>;
+            bindings = <&kp F &kp T &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp W &kp N &kp SPACE &kp SPACE &kp SPACE &kp U &kp P &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp R &mymacro35>;
         };
         mymacro35: mymacro35 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp D &kp O &kp W &kp N &kp SPACE &kp U &kp P &kp SPACE &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &mymacro36>;
+            bindings = <&kp I &kp G &kp H &kp T &kp SPACE &kp C &kp A &kp P &kp S &kp W &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro36>;
         };
         mymacro36: mymacro36 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp W &kp O &kp R &kp D &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &mymacro37>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp U &kp N &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp C &kp U &kp T &kp SPACE &mymacro37>;
         };
         mymacro37: mymacro37 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp K &kp UNDER &kp C &mymacro38>;
+            bindings = <&kp SPACE &kp SPACE &kp C &kp O &kp P &kp Y &kp SPACE &kp SPACE &kp SPACE &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp SPACE &kp SPACE &kp R &kp E &kp D &mymacro38>;
         };
         mymacro38: mymacro38 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &mymacro39>;
+            bindings = <&kp O &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp H &kp O &kp M &kp E &kp SPACE &kp SPACE &kp SPACE &kp P &kp G &kp UNDER &kp D &kp N &kp SPACE &kp SPACE &mymacro39>;
         };
         mymacro39: mymacro39 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp H &kp O &kp M &kp E &kp SPACE &kp P &kp G &kp UNDER &mymacro40>;
+            bindings = <&kp P &kp G &kp UNDER &kp U &kp P &kp SPACE &kp SPACE &kp E &kp N &kp D &kp SPACE &kp SPACE &kp SPACE &kp I &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp N &mymacro40>;
         };
         mymacro40: mymacro40 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp D &kp N &kp SPACE &kp P &kp G &kp UNDER &kp U &kp P &kp SPACE &kp E &kp N &kp D &kp SPACE &kp I &kp N &kp S &kp SPACE &kp N &kp O &kp N &mymacro41>;
+            bindings = <&kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &mymacro41>;
         };
         mymacro41: mymacro41 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &mymacro42>;
+            bindings = <&kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro42>;
         };
         mymacro42: mymacro42 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro43>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &mymacro43>;
         };
         mymacro43: mymacro43 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp B &kp S &kp P &kp C &kp RET &kp RET &mymacro44>;
+            bindings = <&kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp B &kp S &kp P &kp C &kp RET &kp LPAR &kp DOT &kp DOT &kp DOT &kp RPAR &kp RET &kp F &mymacro44>;
         };
         mymacro44: mymacro44 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp LPAR &kp A &kp I &kp SPACE &kp A &kp S &kp S &kp I &kp S &kp T &kp E &kp D &kp COLON &kp RPAR &kp RET &kp RET &kp L &kp UNDER &kp F &kp U &mymacro45>;
+            bindings = <&kp U &kp N &kp C &kp COLON &kp SPACE &kp SPACE &kp B &kp O &kp O &kp T &kp L &kp SPACE &kp SPACE &kp F &kp N1 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro45>;
         };
         mymacro45: mymacro45 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N &kp C &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp B &kp O &kp O &kp T &kp L &kp O &kp A &mymacro46>;
+            bindings = <&kp F &kp N2 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N3 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N4 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro46>;
         };
         mymacro46: mymacro46 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp D &kp E &kp R &kp SPACE &kp F &kp N1 &kp SPACE &kp F &kp N2 &kp SPACE &kp F &kp N3 &kp SPACE &kp F &kp N4 &kp SPACE &kp F &kp N5 &kp SPACE &kp SPACE &mymacro47>;
+            bindings = <&kp SPACE &kp F &kp N5 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N6 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N7 &kp SPACE &kp SPACE &kp SPACE &kp F &mymacro47>;
         };
         mymacro47: mymacro47 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro48>;
+            bindings = <&kp N8 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N9 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N1 &kp N0 &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp ASTRK &mymacro48>;
         };
         mymacro48: mymacro48 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N6 &kp SPACE &kp F &kp N7 &kp SPACE &kp F &kp N8 &kp SPACE &kp F &kp N9 &kp SPACE &kp F &kp N1 &mymacro49>;
+            bindings = <&kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp F &kp N1 &kp N1 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro49>;
         };
         mymacro49: mymacro49 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N0 &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &mymacro50>;
+            bindings = <&kp F &kp N1 &kp N2 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp S &kp L &kp C &kp K &kp SPACE &kp SPACE &mymacro50>;
         };
         mymacro50: mymacro50 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp F &kp N1 &kp N1 &kp SPACE &kp F &kp N1 &kp N2 &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp S &kp L &kp C &kp K &kp SPACE &kp P &mymacro51>;
+            bindings = <&kp SPACE &kp P &kp S &kp C &kp R &kp N &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mymacro51>;
         };
         mymacro51: mymacro51 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp C &kp R &kp N &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro52>;
+            bindings = <&kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &mymacro52>;
         };
         mymacro52: mymacro52 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mymacro53>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp B &kp L &kp E &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N0 &kp SPACE &mymacro53>;
         };
         mymacro53: mymacro53 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &mymacro54>;
+            bindings = <&kp B &kp T &kp S &kp E &kp L &kp N1 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N2 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N3 &mymacro54>;
         };
         mymacro54: mymacro54 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp UNDER &kp B &kp L &kp E &kp SPACE &kp B &kp T &kp S &kp E &mymacro55>;
+            bindings = <&kp SPACE &kp P &kp A &kp U &kp S &kp E &kp B &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mymacro55>;
         };
         mymacro55: mymacro55 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp L &kp N0 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N1 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N2 &kp SPACE &kp B &kp T &kp S &mymacro56>;
+            bindings = <&kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp O &kp U &kp T &kp UNDER &kp U &kp S &mymacro56>;
         };
         mymacro56: mymacro56 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp E &kp L &kp N3 &kp SPACE &kp P &kp A &kp U &kp S &kp E &kp UNDER &kp B &kp R &kp E &kp A &kp K &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro57>;
+            bindings = <&kp B &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp D &kp UNDER &kp B &kp T &kp N1 &kp SPACE &kp T &kp R &kp A &kp N &mymacro57>;
         };
         mymacro57: mymacro57 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &mymacro58>;
+            bindings = <&kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro58>;
         };
         mymacro58: mymacro58 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp O &kp U &kp T &kp SPACE &kp O &kp U &kp T &kp UNDER &kp U &kp S &kp B &kp RET &kp SPACE &kp SPACE &mymacro59>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &mymacro59>;
         };
         mymacro59: mymacro59 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp D &kp UNDER &kp B &kp T &kp N1 &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &mymacro60>;
+            bindings = <&kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp RET &kp M &kp O &kp U &kp S &kp E &kp COLON &kp SPACE &kp N &kp O &mymacro60>;
         };
         mymacro60: mymacro60 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &mymacro61>;
+            bindings = <&kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp P &kp R &kp E &kp V &kp SPACE &kp SPACE &kp SPACE &kp P &kp P &kp SPACE &mymacro61>;
         };
         mymacro61: mymacro61 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp RET &kp L &kp UNDER &kp M &kp O &kp U &mymacro62>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp C &kp UNDER &kp N &kp E &kp X &kp T &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro62>;
         };
         mymacro62: mymacro62 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp E &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &mymacro63>;
+            bindings = <&kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp SPACE &mymacro63>;
         };
         mymacro63: mymacro63 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N &kp E &kp SPACE &kp C &kp UNDER &kp P &kp R &kp E &kp V &kp SPACE &kp C &kp UNDER &kp P &kp P &kp SPACE &kp C &kp UNDER &kp N &kp E &kp X &mymacro64>;
+            bindings = <&kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp U &mymacro64>;
         };
         mymacro64: mymacro64 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro65>;
+            bindings = <&kp N &kp D &kp O &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp I &kp O &kp P &kp GT &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &mymacro65>;
         };
         mymacro65: mymacro65 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &mymacro66>;
+            bindings = <&kp SPACE &kp B &kp R &kp I &kp UNDER &kp D &kp N &kp SPACE &kp B &kp R &kp I &kp UNDER &kp U &kp P &kp SPACE &kp V &kp O &kp L &kp UNDER &kp U &mymacro66>;
         };
         mymacro66: mymacro66 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &mymacro67>;
+            bindings = <&kp P &kp SPACE &kp V &kp O &kp L &kp UNDER &kp D &kp N &kp SPACE &kp SPACE &kp C &kp UNDER &kp M &kp U &kp T &kp E &kp SPACE &kp SPACE &kp SPACE &kp M &mymacro67>;
         };
         mymacro67: mymacro67 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &mymacro68>;
+            bindings = <&kp V &kp UNDER &kp L &kp E &kp F &kp T &kp SPACE &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp D &kp O &kp W &kp N &kp SPACE &kp SPACE &kp M &kp V &mymacro68>;
         };
         mymacro68: mymacro68 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp C &kp UNDER &kp B &kp R &kp I &kp UNDER &kp D &kp N &kp SPACE &kp C &kp UNDER &kp B &kp R &kp I &kp UNDER &kp U &kp P &kp SPACE &kp C &kp UNDER &mymacro69>;
+            bindings = <&kp UNDER &kp U &kp P &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &mymacro69>;
         };
         mymacro69: mymacro69 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp V &kp O &kp L &kp UNDER &kp U &kp P &kp SPACE &kp C &kp UNDER &kp V &kp O &kp L &kp UNDER &kp D &kp N &kp SPACE &kp C &kp UNDER &kp M &kp U &mymacro70>;
+            bindings = <&kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp K &mymacro70>;
         };
         mymacro70: mymacro70 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp M &kp M &kp V &kp SPACE &kp M &kp O &kp V &kp E &kp UNDER &kp L &kp E &kp F &mymacro71>;
+            bindings = <&kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp SPACE &kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &mymacro71>;
         };
         mymacro71: mymacro71 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp SPACE &kp M &kp M &kp V &kp SPACE &kp M &kp O &kp V &kp E &kp UNDER &kp D &kp O &kp W &kp N &kp SPACE &kp M &kp M &kp V &kp SPACE &mymacro72>;
+            bindings = <&kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp S &kp C &kp R &mymacro72>;
         };
         mymacro72: mymacro72 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp M &kp O &kp V &kp E &kp UNDER &kp U &kp P &kp SPACE &kp M &kp M &kp V &kp SPACE &kp M &kp O &kp V &kp E &kp UNDER &kp R &kp I &kp G &mymacro73>;
+            bindings = <&kp L &kp L &kp E &kp F &kp T &kp SPACE &kp SPACE &kp S &kp C &kp R &kp L &kp D &kp O &kp W &kp N &kp SPACE &kp S &kp C &kp R &kp L &mymacro73>;
         };
         mymacro73: mymacro73 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp H &kp T &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro74>;
+            bindings = <&kp U &kp P &kp SPACE &kp S &kp C &kp R &kp L &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &mymacro74>;
         };
         mymacro74: mymacro74 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &mymacro75>;
+            bindings = <&kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &mymacro75>;
         };
         mymacro75: mymacro75 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &mymacro76>;
+            bindings = <&kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro76>;
         };
         mymacro76: mymacro76 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp O &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp S &kp C &kp R &kp L &kp UNDER &mymacro77>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &mymacro77>;
         };
         mymacro77: mymacro77 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp L &kp E &kp F &kp T &kp SPACE &kp S &kp C &kp R &kp L &kp UNDER &kp D &kp O &kp W &kp N &kp SPACE &kp S &kp C &kp R &kp L &kp UNDER &mymacro78>;
+            bindings = <&kp SPACE &kp R &kp C &kp L &kp K &kp SPACE &kp L &kp C &kp L &kp K &kp RET &kp RET &kp S &kp T &kp U &kp F &kp F &kp COLON &kp SPACE &kp E &mymacro78>;
         };
         mymacro78: mymacro78 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp U &kp P &kp SPACE &kp S &kp C &kp R &kp L &kp UNDER &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mymacro79>;
+            bindings = <&kp S &kp C &kp SPACE &kp Q &kp SPACE &kp W &kp SPACE &kp E &kp SPACE &kp R &kp SPACE &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro79>;
         };
         mymacro79: mymacro79 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &mymacro80>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro80>;
         };
         mymacro80: mymacro80 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro81>;
+            bindings = <&kp SPACE &kp SPACE &kp L &kp UNDER &kp C &kp O &kp L &kp E &kp M &kp A &kp K &kp SPACE &kp SPACE &kp L &kp UNDER &kp T &kp E &kp S &kp T &kp SPACE &mymacro81>;
         };
         mymacro81: mymacro81 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp R &kp C &kp L &kp K &kp SPACE &mymacro82>;
+            bindings = <&kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp SPACE &kp L &kp UNDER &kp S &kp T &mymacro82>;
         };
         mymacro82: mymacro82 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp L &kp C &kp L &kp K &kp SPACE &kp RET &kp RET &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro83>;
+            bindings = <&kp U &kp F &kp F &kp SPACE &kp D &kp E &kp L &kp RET &kp A &kp S &kp D &kp L &kp GT &kp SPACE &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &mymacro83>;
         };
         mymacro83: mymacro83 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp S &kp C &kp SPACE &kp Q &kp SPACE &kp W &kp SPACE &kp E &kp SPACE &kp R &kp SPACE &kp T &kp SPACE &kp SPACE &mymacro84>;
+            bindings = <&kp W &kp O &kp R &kp D &kp SPACE &kp A &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &mymacro84>;
         };
         mymacro84: mymacro84 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro85>;
+            bindings = <&kp D &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp F &kp SPACE &kp G &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp X &kp SPACE &mymacro85>;
         };
         mymacro85: mymacro85 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &mymacro86>;
+            bindings = <&kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp J &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &kp K &kp SPACE &kp L &kp A &kp L &mymacro86>;
         };
         mymacro86: mymacro86 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp C &kp O &kp L &kp E &kp M &kp A &kp K &kp SPACE &kp L &kp UNDER &kp T &kp E &kp S &kp T &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &mymacro87>;
+            bindings = <&kp T &kp FSLH &kp L &kp SPACE &kp SPACE &kp S &kp E &kp M &kp I &kp SPACE &kp SPACE &kp SPACE &kp A &kp P &kp O &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &mymacro87>;
         };
         mymacro87: mymacro87 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp S &kp E &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp SPACE &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp SPACE &kp D &kp E &mymacro88>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp M &kp A &kp C &kp R &kp O &kp N1 &kp SPACE &kp M &kp A &mymacro88>;
         };
         mymacro88: mymacro88 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp L &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &kp W &kp O &kp R &kp D &mymacro89>;
+            bindings = <&kp C &kp R &kp O &kp N2 &kp SPACE &kp M &kp Y &kp M &kp A &kp C &kp R &kp O &kp N0 &kp SPACE &kp M &kp A &kp C &kp R &kp O &kp N4 &mymacro89>;
         };
         mymacro89: mymacro89 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp A &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp SPACE &kp M &kp T &kp LPAR &kp L &kp C &kp T &kp R &kp L &kp SPACE &kp D &mymacro90>;
+            bindings = <&kp SPACE &kp B &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp SPACE &kp C &kp O &mymacro90>;
         };
         mymacro90: mymacro90 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp F &kp RPAR &kp SPACE &kp G &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro91>;
+            bindings = <&kp M &kp M &kp A &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp S &kp L &kp H &kp SPACE &kp SPACE &mymacro91>;
         };
         mymacro91: mymacro91 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp X &kp SPACE &kp M &kp T &kp LPAR &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp J &kp RPAR &kp SPACE &kp M &mymacro92>;
+            bindings = <&kp SPACE &kp R &kp S &kp H &kp I &kp F &kp T &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &kp I &kp SPACE &mymacro92>;
         };
         mymacro92: mymacro92 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp T &kp LPAR &kp L &kp C &kp T &kp R &kp L &kp SPACE &kp K &kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp A &kp L &kp T &kp SPACE &kp L &mymacro93>;
+            bindings = <&kp T &kp R &kp A &kp N &kp S &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp SPACE &mymacro93>;
         };
         mymacro93: mymacro93 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp RPAR &kp SPACE &kp S &kp E &kp M &kp I &kp SPACE &kp A &kp P &kp O &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro94>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &mymacro94>;
         };
         mymacro94: mymacro94 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp M &kp A &kp C &kp R &kp O &kp N1 &kp SPACE &kp M &kp A &kp C &kp R &kp O &mymacro95>;
+            bindings = <&kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &mymacro95>;
         };
         mymacro95: mymacro95 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp N2 &kp SPACE &kp M &kp Y &kp M &kp A &kp C &kp R &kp O &kp N0 &kp SPACE &kp M &kp A &kp C &kp R &kp O &kp N4 &kp SPACE &kp B &kp SPACE &mymacro96>;
+            bindings = <&kp E &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp FSLH &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &mymacro96>;
         };
         mymacro96: mymacro96 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp SPACE &kp L &kp UNDER &kp M &kp O &mymacro97>;
-        };
-        mymacro97: mymacro97 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp S &kp E &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp SPACE &kp D &kp O &kp T &kp SPACE &kp F &kp S &kp L &kp H &kp SPACE &kp R &mymacro98>;
-        };
-        mymacro98: mymacro98 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp H &kp I &kp F &kp T &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &kp I &kp SPACE &mymacro99>;
-        };
-        mymacro99: mymacro99 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp R &kp A &kp N &kp S &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp SPACE &mymacro100>;
-        };
-        mymacro100: mymacro100 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &mymacro101>;
-        };
-        mymacro101: mymacro101 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp U &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp FSLH &kp B &kp A &kp C &mymacro102>;
-        };
-        mymacro102: mymacro102 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp L &kp UNDER &kp T &kp E &kp S &kp T &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro103>;
-        };
-        mymacro103: mymacro103 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp S &kp C &kp SPACE &kp Q &kp SPACE &kp W &kp SPACE &kp E &kp SPACE &kp R &kp SPACE &kp T &kp SPACE &kp SPACE &mymacro104>;
-        };
-        mymacro104: mymacro104 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro105>;
-        };
-        mymacro105: mymacro105 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Y &kp SPACE &mymacro106>;
-        };
-        mymacro106: mymacro106 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp SPACE &kp I &kp SPACE &kp O &kp SPACE &kp P &kp SPACE &kp D &kp E &kp L &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro107>;
-        };
-        mymacro107: mymacro107 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp M &kp T &kp LPAR &kp L &kp C &kp T &kp R &kp L &kp SPACE &kp T &kp A &kp B &kp RPAR &kp SPACE &kp A &kp SPACE &kp S &kp SPACE &kp D &mymacro108>;
-        };
-        mymacro108: mymacro108 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp M &kp T &kp LPAR &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp F &kp RPAR &kp SPACE &kp G &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro109>;
-        };
-        mymacro109: mymacro109 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp H &kp SPACE &kp M &kp T &kp LPAR &kp L &mymacro110>;
-        };
-        mymacro110: mymacro110 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp H &kp I &kp F &kp T &kp SPACE &kp J &kp RPAR &kp SPACE &kp K &kp SPACE &kp L &kp SPACE &kp S &kp E &kp M &kp I &kp SPACE &kp M &kp T &mymacro111>;
-        };
-        mymacro111: mymacro111 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp LPAR &kp R &kp C &kp T &kp R &kp L &kp SPACE &kp A &kp P &kp O &kp S &kp RPAR &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro112>;
-        };
-        mymacro112: mymacro112 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp SPACE &kp Z &kp SPACE &kp X &kp SPACE &kp C &kp SPACE &kp V &kp SPACE &kp B &kp SPACE &kp SPACE &kp SPACE &mymacro113>;
-        };
-        mymacro113: mymacro113 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro114>;
-        };
-        mymacro114: mymacro114 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp SPACE &kp M &kp SPACE &kp M &mymacro115>;
-        };
-        mymacro115: mymacro115 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp LPAR &kp R &kp G &kp U &kp I &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp RPAR &kp SPACE &kp D &kp O &kp T &kp SPACE &kp F &kp S &mymacro116>;
-        };
-        mymacro116: mymacro116 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp L &kp H &kp SPACE &kp R &kp C &kp T &kp R &kp L &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp M &kp T &mymacro117>;
-        };
-        mymacro117: mymacro117 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp LPAR &kp L &kp A &kp L &kp T &kp SPACE &kp E &kp S &kp C &kp RPAR &kp SPACE &kp L &kp T &kp LPAR &kp L &kp UNDER &kp S &kp Y &kp M &kp N &mymacro118>;
-        };
-        mymacro118: mymacro118 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp M &kp SPACE &kp S &kp P &kp A &kp C &kp E &kp RPAR &kp SPACE &kp L &kp T &kp LPAR &kp L &kp UNDER &kp N &kp A &kp V &kp SPACE &kp T &mymacro119>;
-        };
-        mymacro119: mymacro119 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp A &kp B &kp RPAR &kp SPACE &kp SPACE &kp SPACE &kp L &kp T &kp LPAR &kp L &kp UNDER &kp N &kp A &kp V &kp SPACE &kp E &kp N &kp T &kp E &kp R &mymacro120>;
-        };
-        mymacro120: mymacro120 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RPAR &kp SPACE &kp L &kp T &kp LPAR &kp L &kp UNDER &kp S &kp Y &kp M &kp N &kp U &kp M &kp SPACE &kp S &kp P &kp A &kp C &kp E &kp RPAR &mymacro121>;
-        };
-        mymacro121: mymacro121 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp M &kp T &kp LPAR &kp R &kp A &kp L &kp T &kp SPACE &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RPAR &kp SPACE &mymacro122>;
-        };
-        mymacro122: mymacro122 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RET &kp RET &kp L &kp UNDER &kp C &kp O &kp L &kp E &kp M &kp A &kp K &kp COLON &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro123>;
-        };
-        mymacro123: mymacro123 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp Q &kp SPACE &kp W &kp SPACE &kp F &kp SPACE &kp P &kp SPACE &kp B &kp SPACE &kp SPACE &kp SPACE &mymacro124>;
-        };
-        mymacro124: mymacro124 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro125>;
-        };
-        mymacro125: mymacro125 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp J &kp SPACE &kp L &kp SPACE &kp U &mymacro126>;
-        };
-        mymacro126: mymacro126 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp Y &kp SPACE &kp S &kp E &kp M &kp I &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro127>;
-        };
-        mymacro127: mymacro127 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp A &kp SPACE &kp M &kp T &kp LPAR &kp L &kp A &kp L &kp T &kp SPACE &kp R &mymacro128>;
-        };
-        mymacro128: mymacro128 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp C &kp T &kp R &kp L &kp SPACE &kp S &kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp S &kp H &mymacro129>;
-        };
-        mymacro129: mymacro129 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp I &kp F &kp T &kp SPACE &kp T &kp RPAR &kp SPACE &kp G &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp M &kp SPACE &kp M &kp T &mymacro130>;
-        };
-        mymacro130: mymacro130 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp LPAR &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp N &kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp C &kp T &kp R &kp L &kp SPACE &mymacro131>;
-        };
-        mymacro131: mymacro131 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp RPAR &kp SPACE &kp M &kp T &kp LPAR &kp L &kp A &kp L &kp T &kp SPACE &kp I &kp RPAR &kp SPACE &kp O &kp SPACE &kp A &kp P &kp O &kp S &mymacro132>;
-        };
-        mymacro132: mymacro132 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp Z &kp SPACE &kp X &kp SPACE &mymacro133>;
-        };
-        mymacro133: mymacro133 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp SPACE &kp D &kp SPACE &kp V &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro134>;
-        };
-        mymacro134: mymacro134 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro135>;
-        };
-        mymacro135: mymacro135 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp K &kp SPACE &kp H &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp SPACE &kp D &kp O &kp T &kp SPACE &kp F &kp S &kp L &mymacro136>;
-        };
-        mymacro136: mymacro136 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp H &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &mymacro137>;
-        };
-        mymacro137: mymacro137 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp I &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mymacro138>;
-        };
-        mymacro138: mymacro138 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &mymacro139>;
-        };
-        mymacro139: mymacro139 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp RET &kp RET &kp RET &kp RET &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &mymacro140>;
-        };
-        mymacro140: mymacro140 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp APOS &kp RET>;
+            bindings = <&kp RET &kp RET &kp RET &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp APOS &kp RET>;
         };
 
 
