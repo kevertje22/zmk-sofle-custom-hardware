@@ -205,843 +205,11 @@
         macro4: macro4 {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-            bindings = <&kp V>, <&kp N2>, <&kp N6>, <&kp N0>, <&kp N3>,  <&kp C> ;
+            bindings = <&kp V>, <&kp N2>, <&kp N6>, <&kp N0>, <&kp N9>,  <&kp C> ;
         };
 
 
-        mac_chshslow: mac_chshslow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp C &kp H &kp O &kp SPACE &kp APOS &kp RET &kp RET &kp RET &kp RET &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &mac_chshslow_1>;
-        };
-        mac_chshslow_1: mac_chshslow_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp RET &kp RET &kp C &kp O &kp M &kp B &kp O &kp S &kp COLON &kp SPACE &kp SPACE &kp W &kp E &kp R &kp GT &mac_chshslow_2>;
-        };
-        mac_chshslow_2: mac_chshslow_2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp A &kp P &kp S &kp W &kp COMMA &kp SPACE &kp SPACE &kp Y &kp U &kp I &kp GT &kp L &kp UNDER &kp B &kp A &kp S &kp E &kp COMMA &kp SPACE &mac_chshslow_3>;
-        };
-        mac_chshslow_3: mac_chshslow_3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp I &kp O &kp P &kp GT &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp COMMA &kp SPACE &kp C &kp V &kp B &kp GT &kp B &kp O &mac_chshslow_4>;
-        };
-        mac_chshslow_4: mac_chshslow_4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp T &kp COMMA &kp SPACE &kp SPACE &kp SPACE &kp A &kp S &kp D &kp L &kp GT &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp LPAR &kp M &mac_chshslow_5>;
-        };
-        mac_chshslow_5: mac_chshslow_5 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp A &kp C &kp R &kp O &kp COLON &kp SPACE &kp V &kp UNDER &kp E &kp R &kp S &kp I &kp O &kp N &kp COMMA &kp SPACE &kp X &kp FSLH &kp C &kp UNDER &mac_chshslow_6>;
-        };
-        mac_chshslow_6: mac_chshslow_6 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp H &kp E &kp A &kp T &kp S &kp H &kp E &kp E &kp T &kp COMMA &kp SPACE &kp Z &kp UNDER &kp S &kp M &kp I &kp L &kp E &kp Y &kp RPAR &mac_chshslow_7>;
-        };
-        mac_chshslow_7: mac_chshslow_7 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RET &kp RET &kp S &kp T &kp I &kp C &kp K &kp Y &kp SPACE &kp C &kp O &kp M &kp B &kp O &kp S &kp COMMA &kp SPACE &kp S &kp Y &kp M &mac_chshslow_8>;
-        };
-        mac_chshslow_8: mac_chshslow_8 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp M &kp E &kp T &kp R &kp I &kp C &kp SPACE &kp F &kp I &kp N &kp G &kp E &kp R &kp S &kp COLON &kp SPACE &kp SPACE &kp A &kp L &kp T &mac_chshslow_9>;
-        };
-        mac_chshslow_9: mac_chshslow_9 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp MINUS &kp A &kp COMMA &kp SPACE &kp SPACE &kp S &kp H &kp I &kp F &kp T &kp MINUS &kp S &kp COMMA &kp SPACE &kp SPACE &kp C &kp T &kp R &kp L &kp MINUS &mac_chshslow_10>;
-        };
-        mac_chshslow_10: mac_chshslow_10 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp COMMA &kp SPACE &kp SPACE &kp S &kp H &kp I &kp F &kp T &kp MINUS &kp P &kp I &kp N &kp K &kp I &kp E &kp S &kp SPACE &kp COMMA &kp SPACE &mac_chshslow_11>;
-        };
-        mac_chshslow_11: mac_chshslow_11 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp F &kp U &kp N &kp C &kp MINUS &kp U &kp COMMA &kp SPACE &kp SPACE &kp S &kp Y &kp M &kp MINUS &kp Y &kp RET &kp RET &kp P &kp I &kp N &mac_chshslow_12>;
-        };
-        mac_chshslow_12: mac_chshslow_12 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp PLUS &kp D &kp O &kp W &kp N &kp EQUAL &kp S &kp H &kp I &mac_chshslow_13>;
-        };
-        mac_chshslow_13: mac_chshslow_13 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp F &kp T &kp RET &kp P &kp I &kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp W &kp A &kp R &mac_chshslow_14>;
-        };
-        mac_chshslow_14: mac_chshslow_14 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp D &kp S &kp EQUAL &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp LPAR &kp LT &kp T &kp A &kp B &kp GT &kp APOS &kp RPAR &kp RET &kp P &kp I &mac_chshslow_15>;
-        };
-        mac_chshslow_15: mac_chshslow_15 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp W &kp N &kp EQUAL &kp C &kp T &kp R &kp L &kp SPACE &kp SPACE &mac_chshslow_16>;
-        };
-        mac_chshslow_16: mac_chshslow_16 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp Z &kp FSLH &kp RPAR &kp RET &kp R &kp I &kp N &kp G &kp F &kp I &kp N &kp G &kp E &kp R &kp SPACE &mac_chshslow_17>;
-        };
-        mac_chshslow_17: mac_chshslow_17 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp D &kp O &kp W &kp N &kp EQUAL &kp A &kp L &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp X &kp DOT &kp RPAR &kp RET &mac_chshslow_18>;
-        };
-        mac_chshslow_18: mac_chshslow_18 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp P &kp I &kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp PLUS &kp U &kp P &kp EQUAL &kp R &kp G &mac_chshslow_19>;
-        };
-        mac_chshslow_19: mac_chshslow_19 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp I &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp D &kp E &kp L &kp RPAR &kp RET &kp RET &kp B &kp A &kp S &kp E &kp COLON &kp SPACE &kp SPACE &mac_chshslow_20>;
-        };
-        mac_chshslow_20: mac_chshslow_20 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp Q &kp W &kp E &kp R &kp T &kp SPACE &kp Y &kp U &kp I &kp O &kp P &kp RET &kp Y &kp U &kp I &kp GT &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_21>;
-        };
-        mac_chshslow_21: mac_chshslow_21 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp A &kp S &kp D &kp F &kp G &kp SPACE &kp H &kp J &kp K &kp L &kp SEMI &kp LT &kp A &kp P &kp O &kp S &kp GT &kp RET &kp SPACE &mac_chshslow_22>;
-        };
-        mac_chshslow_22: mac_chshslow_22 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RET &kp SPACE &mac_chshslow_23>;
-        };
-        mac_chshslow_23: mac_chshslow_23 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &mac_chshslow_24>;
-        };
-        mac_chshslow_24: mac_chshslow_24 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp T &kp A &kp B &kp SPACE &mac_chshslow_25>;
-        };
-        mac_chshslow_25: mac_chshslow_25 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &mac_chshslow_26>;
-        };
-        mac_chshslow_26: mac_chshslow_26 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp R &kp A &kp L &kp T &kp FSLH &mac_chshslow_27>;
-        };
-        mac_chshslow_27: mac_chshslow_27 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp S &kp Y &kp M &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp TILDE &kp EXCL &mac_chshslow_28>;
-        };
-        mac_chshslow_28: mac_chshslow_28 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp AT &kp HASH &kp DLLR &kp PRCNT &kp SPACE &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp PIPE &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp MINUS &mac_chshslow_29>;
-        };
-        mac_chshslow_29: mac_chshslow_29 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp SPACE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp PLUS &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_30>;
-        };
-        mac_chshslow_30: mac_chshslow_30 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp UNDER &kp LBKT &kp RBKT &kp LBRC &kp RBRC &kp PLUS &kp SPACE &kp BSLH &kp EQUAL &kp COMMA &kp DOT &kp FSLH &kp GRAVE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_31>;
-        };
-        mac_chshslow_31: mac_chshslow_31 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp U &kp N &kp D &kp E &kp R &kp S &kp C &kp O &kp R &kp E &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &mac_chshslow_32>;
-        };
-        mac_chshslow_32: mac_chshslow_32 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp M &kp I &kp N &kp U &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_33>;
-        };
-        mac_chshslow_33: mac_chshslow_33 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &mac_chshslow_34>;
-        };
-        mac_chshslow_34: mac_chshslow_34 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp A &kp N &kp S &kp RET &kp RET &kp N &kp A &kp V &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp B &kp O &kp O &kp T &kp L &kp SPACE &kp N &kp O &mac_chshslow_35>;
-        };
-        mac_chshslow_35: mac_chshslow_35 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &mac_chshslow_36>;
-        };
-        mac_chshslow_36: mac_chshslow_36 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp R &kp E &kp D &kp O &kp SPACE &mac_chshslow_37>;
-        };
-        mac_chshslow_37: mac_chshslow_37 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp SPACE &kp C &kp O &kp P &kp Y &kp SPACE &kp SPACE &kp SPACE &kp C &kp U &kp T &kp SPACE &mac_chshslow_38>;
-        };
-        mac_chshslow_38: mac_chshslow_38 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp U &kp N &kp D &kp O &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_39>;
-        };
-        mac_chshslow_39: mac_chshslow_39 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp SPACE &kp SPACE &kp L &mac_chshslow_40>;
-        };
-        mac_chshslow_40: mac_chshslow_40 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp T &kp R &kp L &kp SPACE &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &mac_chshslow_41>;
-        };
-        mac_chshslow_41: mac_chshslow_41 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp L &kp E &kp F &kp T &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp W &kp N &kp SPACE &kp SPACE &kp SPACE &kp U &kp P &kp SPACE &mac_chshslow_42>;
-        };
-        mac_chshslow_42: mac_chshslow_42 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp C &kp A &kp P &kp S &kp W &kp SPACE &kp N &kp O &kp N &kp E &mac_chshslow_43>;
-        };
-        mac_chshslow_43: mac_chshslow_43 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp U &kp N &kp D &kp O &kp SPACE &kp SPACE &mac_chshslow_44>;
-        };
-        mac_chshslow_44: mac_chshslow_44 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp C &kp U &kp T &kp SPACE &kp SPACE &kp SPACE &kp C &kp O &kp P &kp Y &kp SPACE &kp SPACE &kp SPACE &kp P &kp A &kp S &kp T &kp E &kp SPACE &mac_chshslow_45>;
-        };
-        mac_chshslow_45: mac_chshslow_45 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp H &kp O &kp M &kp E &kp SPACE &kp SPACE &kp SPACE &kp P &kp G &mac_chshslow_46>;
-        };
-        mac_chshslow_46: mac_chshslow_46 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp UNDER &kp D &kp N &kp SPACE &kp SPACE &kp P &kp G &kp UNDER &kp U &kp P &kp SPACE &kp SPACE &kp E &kp N &kp D &kp SPACE &kp SPACE &kp SPACE &kp I &kp N &mac_chshslow_47>;
-        };
-        mac_chshslow_47: mac_chshslow_47 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &mac_chshslow_48>;
-        };
-        mac_chshslow_48: mac_chshslow_48 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_49>;
-        };
-        mac_chshslow_49: mac_chshslow_49 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp E &mac_chshslow_50>;
-        };
-        mac_chshslow_50: mac_chshslow_50 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp SPACE &kp B &kp S &kp P &kp C &kp RET &kp LPAR &kp DOT &mac_chshslow_51>;
-        };
-        mac_chshslow_51: mac_chshslow_51 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp DOT &kp DOT &kp RPAR &kp RET &kp F &kp U &kp N &kp C &kp COLON &kp SPACE &kp SPACE &kp B &kp O &kp O &kp T &kp L &kp SPACE &kp SPACE &kp F &kp N1 &mac_chshslow_52>;
-        };
-        mac_chshslow_52: mac_chshslow_52 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N2 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N3 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &mac_chshslow_53>;
-        };
-        mac_chshslow_53: mac_chshslow_53 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N4 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N5 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N6 &kp SPACE &kp SPACE &kp SPACE &kp F &mac_chshslow_54>;
-        };
-        mac_chshslow_54: mac_chshslow_54 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N7 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N8 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N9 &kp SPACE &kp SPACE &kp SPACE &kp F &kp N1 &kp N0 &kp SPACE &kp SPACE &kp N &mac_chshslow_55>;
-        };
-        mac_chshslow_55: mac_chshslow_55 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp F &kp N1 &mac_chshslow_56>;
-        };
-        mac_chshslow_56: mac_chshslow_56 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N1 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp N1 &kp N2 &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp S &mac_chshslow_57>;
-        };
-        mac_chshslow_57: mac_chshslow_57 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp L &kp C &kp K &kp SPACE &kp SPACE &kp SPACE &kp P &kp S &kp C &kp R &kp N &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mac_chshslow_58>;
-        };
-        mac_chshslow_58: mac_chshslow_58 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mac_chshslow_59>;
-        };
-        mac_chshslow_59: mac_chshslow_59 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp B &kp L &kp E &kp SPACE &kp B &kp T &mac_chshslow_60>;
-        };
-        mac_chshslow_60: mac_chshslow_60 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp E &kp L &kp N0 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N1 &kp SPACE &kp B &kp T &kp S &kp E &kp L &kp N2 &kp SPACE &kp B &mac_chshslow_61>;
-        };
-        mac_chshslow_61: mac_chshslow_61 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp S &kp E &kp L &kp N3 &kp SPACE &kp P &kp A &kp U &kp S &kp E &kp B &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &mac_chshslow_62>;
-        };
-        mac_chshslow_62: mac_chshslow_62 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp O &mac_chshslow_63>;
-        };
-        mac_chshslow_63: mac_chshslow_63 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp T &kp UNDER &kp U &kp S &kp B &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp D &kp UNDER &kp B &kp T &kp N1 &mac_chshslow_64>;
-        };
-        mac_chshslow_64: mac_chshslow_64 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_65>;
-        };
-        mac_chshslow_65: mac_chshslow_65 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &mac_chshslow_66>;
-        };
-        mac_chshslow_66: mac_chshslow_66 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp RET &kp RET &kp M &kp O &kp U &kp S &mac_chshslow_67>;
-        };
-        mac_chshslow_67: mac_chshslow_67 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp COLON &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp P &kp R &kp E &kp V &kp SPACE &mac_chshslow_68>;
-        };
-        mac_chshslow_68: mac_chshslow_68 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp P &kp P &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp C &kp UNDER &kp N &kp E &kp X &kp T &kp SPACE &kp SPACE &kp N &kp O &kp N &mac_chshslow_69>;
-        };
-        mac_chshslow_69: mac_chshslow_69 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp K &kp UNDER &kp P &kp A &mac_chshslow_70>;
-        };
-        mac_chshslow_70: mac_chshslow_70 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp S &kp T &kp E &kp SPACE &kp SPACE &kp K &kp UNDER &kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_71>;
-        };
-        mac_chshslow_71: mac_chshslow_71 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp I &kp O &kp P &kp GT &kp SPACE &kp SPACE &mac_chshslow_72>;
-        };
-        mac_chshslow_72: mac_chshslow_72 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp O &kp N &kp E &kp SPACE &kp B &kp R &kp I &kp UNDER &kp D &kp N &kp SPACE &kp B &kp R &kp I &kp UNDER &kp U &kp P &kp SPACE &mac_chshslow_73>;
-        };
-        mac_chshslow_73: mac_chshslow_73 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp V &kp O &kp L &kp UNDER &kp U &kp P &kp SPACE &kp V &kp O &kp L &kp UNDER &kp D &kp N &kp SPACE &kp SPACE &kp C &kp UNDER &kp M &kp U &kp T &mac_chshslow_74>;
-        };
-        mac_chshslow_74: mac_chshslow_74 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp SPACE &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp L &kp E &kp F &kp T &kp SPACE &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp D &kp O &kp W &mac_chshslow_75>;
-        };
-        mac_chshslow_75: mac_chshslow_75 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp U &kp P &kp SPACE &kp SPACE &kp M &kp V &kp UNDER &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp SPACE &mac_chshslow_76>;
-        };
-        mac_chshslow_76: mac_chshslow_76 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp O &kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N &mac_chshslow_77>;
-        };
-        mac_chshslow_77: mac_chshslow_77 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp E &kp SPACE &kp K &kp UNDER &kp U &kp N &kp D &kp O &kp SPACE &kp K &kp UNDER &kp C &kp U &kp T &kp SPACE &kp SPACE &kp K &kp UNDER &mac_chshslow_78>;
-        };
-        mac_chshslow_78: mac_chshslow_78 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp O &kp P &kp Y &kp SPACE &kp K &kp UNDER &kp P &kp A &kp S &kp T &kp E &kp SPACE &kp K &kp UNDER &kp R &kp E &kp D &kp O &kp SPACE &mac_chshslow_79>;
-        };
-        mac_chshslow_79: mac_chshslow_79 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp S &kp C &kp R &kp L &kp L &kp E &kp F &kp T &kp SPACE &kp SPACE &kp S &kp C &kp R &kp L &kp D &kp O &kp W &kp N &mac_chshslow_80>;
-        };
-        mac_chshslow_80: mac_chshslow_80 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp S &kp C &kp R &kp L &kp U &kp P &kp SPACE &kp S &kp C &kp R &kp L &kp R &kp I &kp G &kp H &kp T &kp SPACE &kp N &kp O &mac_chshslow_81>;
-        };
-        mac_chshslow_81: mac_chshslow_81 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp E &kp SPACE &kp SPACE &kp SPACE &kp N &kp O &kp N &kp E &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp T &kp R &kp A &mac_chshslow_82>;
-        };
-        mac_chshslow_82: mac_chshslow_82 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_83>;
-        };
-        mac_chshslow_83: mac_chshslow_83 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_84>;
-        };
-        mac_chshslow_84: mac_chshslow_84 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp N &kp T &kp E &kp R &kp SPACE &kp R &kp C &kp L &kp K &kp SPACE &kp L &kp C &kp L &kp K &kp RET &kp RET &kp S &kp T &kp U &mac_chshslow_85>;
-        };
-        mac_chshslow_85: mac_chshslow_85 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp F &kp F &kp COLON &kp SPACE &kp E &kp S &kp C &kp SPACE &kp Q &kp SPACE &kp W &kp SPACE &kp E &kp SPACE &kp R &kp SPACE &kp T &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_86>;
-        };
-        mac_chshslow_86: mac_chshslow_86 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_87>;
-        };
-        mac_chshslow_87: mac_chshslow_87 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp C &kp O &kp L &kp E &kp M &kp A &kp K &kp SPACE &mac_chshslow_88>;
-        };
-        mac_chshslow_88: mac_chshslow_88 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp L &kp UNDER &kp T &kp E &kp S &kp T &kp SPACE &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp L &kp UNDER &kp F &mac_chshslow_89>;
-        };
-        mac_chshslow_89: mac_chshslow_89 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp U &kp N &kp C &kp SPACE &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp SPACE &kp D &kp E &kp L &kp RET &kp A &kp S &kp D &kp L &mac_chshslow_90>;
-        };
-        mac_chshslow_90: mac_chshslow_90 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp GT &kp SPACE &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &kp W &kp O &kp R &kp D &kp SPACE &kp A &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &mac_chshslow_91>;
-        };
-        mac_chshslow_91: mac_chshslow_91 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp C &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &kp D &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp F &kp SPACE &kp G &mac_chshslow_92>;
-        };
-        mac_chshslow_92: mac_chshslow_92 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp X &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp J &kp SPACE &mac_chshslow_93>;
-        };
-        mac_chshslow_93: mac_chshslow_93 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp L &kp C &kp T &kp R &kp L &kp FSLH &kp K &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp L &kp SPACE &kp SPACE &kp S &kp E &kp M &kp I &mac_chshslow_94>;
-        };
-        mac_chshslow_94: mac_chshslow_94 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp A &kp P &kp O &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp S &kp H &kp I &kp F &mac_chshslow_95>;
-        };
-        mac_chshslow_95: mac_chshslow_95 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp SPACE &kp M &kp C &kp S &kp M &kp I &kp L &kp E &kp SPACE &kp C &kp H &kp S &kp H &kp F &kp A &kp S &kp T &kp SPACE &kp C &mac_chshslow_96>;
-        };
-        mac_chshslow_96: mac_chshslow_96 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp H &kp S &kp H &kp S &kp L &kp O &kp W &kp SPACE &kp M &kp C &kp V &kp E &kp R &kp S &kp I &kp O &kp N &kp SPACE &kp B &kp SPACE &mac_chshslow_97>;
-        };
-        mac_chshslow_97: mac_chshslow_97 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp N &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_98>;
-        };
-        mac_chshslow_98: mac_chshslow_98 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp D &kp O &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp S &kp L &kp H &kp SPACE &kp SPACE &kp SPACE &kp R &kp S &kp H &kp I &kp F &mac_chshslow_99>;
-        };
-        mac_chshslow_99: mac_chshslow_99 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &kp I &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &mac_chshslow_100>;
-        };
-        mac_chshslow_100: mac_chshslow_100 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshslow_101>;
-        };
-        mac_chshslow_101: mac_chshslow_101 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &mac_chshslow_102>;
-        };
-        mac_chshslow_102: mac_chshslow_102 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp L &mac_chshslow_103>;
-        };
-        mac_chshslow_103: mac_chshslow_103 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp UNDER &kp F &kp U &kp N &kp C &kp FSLH &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp RET &kp S &kp I &mac_chshslow_104>;
-        };
-        mac_chshslow_104: mac_chshslow_104 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp M &kp P &kp L &kp E &kp COLON &kp SPACE &kp A &kp L &kp L &kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp S &kp E &kp N &kp D &kp SPACE &mac_chshslow_105>;
-        };
-        mac_chshslow_105: mac_chshslow_105 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp O &kp N &kp L &kp Y &kp SPACE &kp W &kp H &kp A &kp T &kp SPACE &kp I &kp S &kp SPACE &kp T &kp H &kp E &kp I &kp R &kp SPACE &kp APOS &mac_chshslow_106>;
-        };
-        mac_chshslow_106: mac_chshslow_106 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp N &kp A &kp M &kp E &kp APOS &kp SPACE &kp I &kp N &kp SPACE &kp T &kp H &kp E &kp SPACE &kp N4 &kp N0 &kp SPACE &kp K &kp E &kp Y &kp SPACE &mac_chshslow_107>;
-        };
-        mac_chshslow_107: mac_chshslow_107 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp APOS &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp APOS &kp SPACE &kp S &kp T &kp A &kp N &kp D &kp A &kp R &kp D &kp I &mac_chshslow_108>;
-        };
-        mac_chshslow_108: mac_chshslow_108 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp Z &kp A &kp T &kp I &kp O &kp N &kp RET &kp T &kp H &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp U &kp L &kp D &kp SPACE &kp B &mac_chshslow_109>;
-        };
-        mac_chshslow_109: mac_chshslow_109 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp SPACE &kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp O &kp N &kp SPACE &kp B &kp O &kp T &kp H &kp SPACE &mac_chshslow_110>;
-        };
-        mac_chshslow_110: mac_chshslow_110 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp Z &kp M &kp K &kp SPACE &kp A &kp N &kp D &kp SPACE &kp L &kp A &kp P &kp T &kp O &kp P &kp COMMA &kp SPACE &kp E &kp T &kp C &kp DOT &mac_chshslow_111>;
-        };
-        mac_chshslow_111: mac_chshslow_111 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp E &kp DOT &kp G &kp DOT &kp SPACE &kp N3 &kp SPACE &kp R &kp O &kp W &kp S &kp COMMA &kp SPACE &kp S &kp P &kp A &kp C &kp E &kp COMMA &mac_chshslow_112>;
-        };
-        mac_chshslow_112: mac_chshslow_112 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp T &kp W &kp O &kp SPACE &kp T &kp H &kp U &kp M &kp B &kp S &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp E &kp N &kp T &mac_chshslow_113>;
-        };
-        mac_chshslow_113: mac_chshslow_113 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp E &kp R &kp RET &kp LPAR &kp P &kp L &kp U &kp S &kp SPACE &kp M &kp A &kp Y &kp B &kp E &kp SPACE &kp E &kp X &kp T &kp R &kp A &mac_chshslow_114>;
-        };
-        mac_chshslow_114: mac_chshslow_114 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp M &kp I &kp G &kp H &kp T &kp SPACE &kp B &kp E &kp SPACE &mac_chshslow_115>;
-        };
-        mac_chshslow_115: mac_chshslow_115 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp B &kp U &kp T &kp SPACE &kp A &kp R &kp E &kp SPACE &kp N &kp O &mac_chshslow_116>;
-        };
-        mac_chshslow_116: mac_chshslow_116 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp T &kp SPACE &kp R &kp E &kp L &kp E &kp V &kp A &kp N &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp T &kp H &kp E &kp SPACE &kp S &mac_chshslow_117>;
-        };
-        mac_chshslow_117: mac_chshslow_117 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp I &kp M &kp P &kp L &kp E &kp SPACE &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp RPAR &kp RET &kp RET &kp RET &kp EQUAL &kp EQUAL &mac_chshslow_118>;
-        };
-        mac_chshslow_118: mac_chshslow_118 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
-            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp APOS &kp RET>;
-        };
+
 
         mac_chshfast: mac_chshfast {
             compatible = "zmk,behavior-macro";
@@ -1146,119 +314,119 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp D &kp S &kp EQUAL &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp LPAR &kp LT &kp T &kp A &kp B &kp GT &kp APOS &kp RPAR &kp RET &kp P &kp I &mac_chshfast_15>;
+            bindings = <&kp D &kp S &kp EQUAL &kp S &kp H &kp I &kp F &kp T &kp SPACE &kp LPAR &kp LT &kp T &kp A &kp B &kp GT &kp RPAR &kp RET &kp P &kp I &kp N &mac_chshfast_15>;
         };
         mac_chshfast_15: mac_chshfast_15 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp W &kp N &kp EQUAL &kp C &kp T &kp R &kp L &kp SPACE &kp SPACE &mac_chshfast_16>;
+            bindings = <&kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp D &kp O &kp W &kp N &kp EQUAL &kp C &kp T &kp R &kp L &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_16>;
         };
         mac_chshfast_16: mac_chshfast_16 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp Z &kp FSLH &kp RPAR &kp RET &kp R &kp I &kp N &kp G &kp F &kp I &kp N &kp G &kp E &kp R &kp SPACE &mac_chshfast_17>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp Z &kp FSLH &kp RPAR &kp RET &kp R &kp I &kp N &kp G &kp F &kp I &kp N &kp G &kp E &kp R &kp SPACE &kp D &mac_chshfast_17>;
         };
         mac_chshfast_17: mac_chshfast_17 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp D &kp O &kp W &kp N &kp EQUAL &kp A &kp L &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp X &kp DOT &kp RPAR &kp RET &mac_chshfast_18>;
+            bindings = <&kp O &kp W &kp N &kp EQUAL &kp A &kp L &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp X &kp DOT &kp RPAR &kp RET &kp P &mac_chshfast_18>;
         };
         mac_chshfast_18: mac_chshfast_18 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp P &kp I &kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp PLUS &kp U &kp P &kp EQUAL &kp R &kp G &mac_chshfast_19>;
+            bindings = <&kp I &kp N &kp K &kp Y &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp O &kp U &kp T &kp PLUS &kp U &kp P &kp EQUAL &kp R &kp G &kp U &mac_chshfast_19>;
         };
         mac_chshfast_19: mac_chshfast_19 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp I &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp D &kp E &kp L &kp RPAR &kp RET &kp RET &kp B &kp A &kp S &kp E &kp COLON &kp SPACE &kp SPACE &mac_chshfast_20>;
+            bindings = <&kp I &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp LPAR &kp D &kp E &kp L &kp RPAR &kp RET &kp RET &kp B &kp A &kp S &kp E &kp COLON &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_20>;
         };
         mac_chshfast_20: mac_chshfast_20 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp Q &kp W &kp E &kp R &kp T &kp SPACE &kp Y &kp U &kp I &kp O &kp P &kp RET &kp Y &kp U &kp I &kp GT &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_21>;
+            bindings = <&kp Q &kp W &kp E &kp R &kp T &kp SPACE &kp Y &kp U &kp I &kp O &kp P &kp RET &kp Y &kp U &kp I &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_21>;
         };
         mac_chshfast_21: mac_chshfast_21 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp A &kp S &kp D &kp F &kp G &kp SPACE &kp H &kp J &kp K &kp L &kp SEMI &kp LT &kp A &kp P &kp O &kp S &kp GT &kp RET &kp SPACE &mac_chshfast_22>;
+            bindings = <&kp A &kp S &kp D &kp F &kp G &kp SPACE &kp H &kp J &kp K &kp L &kp SEMI &kp LT &kp A &kp P &kp O &kp S &kp GT &kp RET &kp SPACE &kp SPACE &mac_chshfast_22>;
         };
         mac_chshfast_22: mac_chshfast_22 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RET &kp SPACE &mac_chshfast_23>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RET &kp SPACE &kp SPACE &mac_chshfast_23>;
         };
         mac_chshfast_23: mac_chshfast_23 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &mac_chshfast_24>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &mac_chshfast_24>;
         };
         mac_chshfast_24: mac_chshfast_24 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp T &kp A &kp B &kp SPACE &mac_chshfast_25>;
+            bindings = <&kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp T &kp A &kp B &kp SPACE &kp SPACE &mac_chshfast_25>;
         };
         mac_chshfast_25: mac_chshfast_25 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &mac_chshfast_26>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &mac_chshfast_26>;
         };
         mac_chshfast_26: mac_chshfast_26 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp R &kp A &kp L &kp T &kp FSLH &mac_chshfast_27>;
+            bindings = <&kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp SPACE &kp R &kp A &kp L &kp T &kp FSLH &kp B &mac_chshfast_27>;
         };
         mac_chshfast_27: mac_chshfast_27 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp S &kp Y &kp M &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp TILDE &kp EXCL &mac_chshfast_28>;
+            bindings = <&kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp S &kp Y &kp M &kp COLON &kp SPACE &kp SPACE &kp SPACE &kp TILDE &kp EXCL &kp AT &mac_chshfast_28>;
         };
         mac_chshfast_28: mac_chshfast_28 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp AT &kp HASH &kp DLLR &kp PRCNT &kp SPACE &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp PIPE &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp MINUS &mac_chshfast_29>;
+            bindings = <&kp HASH &kp DLLR &kp PRCNT &kp SPACE &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp PIPE &kp RET &kp ASTRK &kp GT &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp MINUS &kp N1 &mac_chshfast_29>;
         };
         mac_chshfast_29: mac_chshfast_29 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp SPACE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp PLUS &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_30>;
+            bindings = <&kp N2 &kp N3 &kp N4 &kp N5 &kp SPACE &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp PLUS &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp UNDER &mac_chshfast_30>;
         };
         mac_chshfast_30: mac_chshfast_30 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp UNDER &kp LBKT &kp RBKT &kp LBRC &kp RBRC &kp PLUS &kp SPACE &kp BSLH &kp EQUAL &kp COMMA &kp DOT &kp FSLH &kp GRAVE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_31>;
+            bindings = <&kp LBKT &kp RBKT &kp LBRC &kp RBRC &kp PLUS &kp SPACE &kp BSLH &kp EQUAL &kp COMMA &kp DOT &kp FSLH &kp BSLH &kp GRAVE &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_31>;
         };
         mac_chshfast_31: mac_chshfast_31 {
             compatible = "zmk,behavior-macro";
@@ -1664,217 +832,217 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp L &kp UNDER &kp T &kp E &kp S &kp T &kp SPACE &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp L &kp UNDER &kp F &mac_chshfast_89>;
+            bindings = <&kp SPACE &kp L &kp UNDER &kp S &kp I &kp M &kp P &kp L &kp E &kp SPACE &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp L &mac_chshfast_89>;
         };
         mac_chshfast_89: mac_chshfast_89 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp U &kp N &kp C &kp SPACE &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp SPACE &kp D &kp E &kp L &kp RET &kp A &kp S &kp D &kp L &mac_chshfast_90>;
+            bindings = <&kp UNDER &kp F &kp U &kp N &kp C &kp SPACE &kp L &kp UNDER &kp S &kp T &kp U &kp F &kp F &kp SPACE &kp D &kp E &kp L &kp RET &kp A &kp S &mac_chshfast_90>;
         };
         mac_chshfast_90: mac_chshfast_90 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp GT &kp SPACE &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &kp W &kp O &kp R &kp D &kp SPACE &kp A &kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &mac_chshfast_91>;
+            bindings = <&kp D &kp L &kp GT &kp SPACE &kp SPACE &kp C &kp A &kp P &kp S &kp UNDER &kp W &kp O &kp R &kp D &kp SPACE &kp A &kp SPACE &kp L &kp UNDER &kp F &mac_chshfast_91>;
         };
         mac_chshfast_91: mac_chshfast_91 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp C &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &kp D &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp F &kp SPACE &kp G &mac_chshfast_92>;
+            bindings = <&kp U &kp N &kp C &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &kp D &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp F &mac_chshfast_92>;
         };
         mac_chshfast_92: mac_chshfast_92 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp X &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &kp J &kp SPACE &mac_chshfast_93>;
+            bindings = <&kp SPACE &kp G &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp X &kp SPACE &kp L &kp S &kp H &kp I &kp F &kp T &kp FSLH &mac_chshfast_93>;
         };
         mac_chshfast_93: mac_chshfast_93 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp L &kp C &kp T &kp R &kp L &kp FSLH &kp K &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp L &kp SPACE &kp SPACE &kp S &kp E &kp M &kp I &mac_chshfast_94>;
+            bindings = <&kp J &kp SPACE &kp L &kp C &kp T &kp R &kp L &kp FSLH &kp K &kp SPACE &kp L &kp A &kp L &kp T &kp FSLH &kp L &kp SPACE &kp SPACE &kp S &kp E &mac_chshfast_94>;
         };
         mac_chshfast_94: mac_chshfast_94 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp A &kp P &kp O &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp S &kp H &kp I &kp F &mac_chshfast_95>;
+            bindings = <&kp M &kp I &kp SPACE &kp SPACE &kp SPACE &kp A &kp P &kp O &kp S &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp S &kp H &mac_chshfast_95>;
         };
         mac_chshfast_95: mac_chshfast_95 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp T &kp SPACE &kp M &kp C &kp S &kp M &kp I &kp L &kp E &kp SPACE &kp C &kp H &kp S &kp H &kp F &kp A &kp S &kp T &kp SPACE &kp C &mac_chshfast_96>;
+            bindings = <&kp I &kp F &kp T &kp SPACE &kp M &kp C &kp S &kp M &kp I &kp L &kp E &kp SPACE &kp C &kp H &kp S &kp H &kp F &kp A &kp S &kp T &mac_chshfast_96>;
         };
         mac_chshfast_96: mac_chshfast_96 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp H &kp S &kp H &kp S &kp L &kp O &kp W &kp SPACE &kp M &kp C &kp V &kp E &kp R &kp S &kp I &kp O &kp N &kp SPACE &kp B &kp SPACE &mac_chshfast_97>;
+            bindings = <&kp SPACE &kp C &kp H &kp S &kp H &kp F &kp A &kp S &kp T &kp SPACE &kp M &kp C &kp V &kp E &kp R &kp S &kp I &kp O &kp N &kp SPACE &mac_chshfast_97>;
         };
         mac_chshfast_97: mac_chshfast_97 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp N &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_98>;
+            bindings = <&kp B &kp SPACE &kp SPACE &kp N &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp SPACE &kp SPACE &kp C &kp O &kp M &kp M &kp A &kp SPACE &mac_chshfast_98>;
         };
         mac_chshfast_98: mac_chshfast_98 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp D &kp O &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp S &kp L &kp H &kp SPACE &kp SPACE &kp SPACE &kp R &kp S &kp H &kp I &kp F &mac_chshfast_99>;
+            bindings = <&kp SPACE &kp SPACE &kp D &kp O &kp T &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp F &kp S &kp L &kp H &kp SPACE &kp SPACE &kp SPACE &kp R &kp S &kp H &mac_chshfast_99>;
         };
         mac_chshfast_99: mac_chshfast_99 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp T &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &kp I &kp SPACE &kp T &kp R &kp A &kp N &kp S &kp SPACE &mac_chshfast_100>;
+            bindings = <&kp I &kp F &kp T &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp G &kp U &kp I &kp SPACE &kp T &kp R &kp A &kp N &mac_chshfast_100>;
         };
         mac_chshfast_100: mac_chshfast_100 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_101>;
+            bindings = <&kp S &kp SPACE &kp L &kp UNDER &kp M &kp O &kp U &kp S &kp E &kp FSLH &kp E &kp S &kp C &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &mac_chshfast_101>;
         };
         mac_chshfast_101: mac_chshfast_101 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &kp A &kp V &mac_chshfast_102>;
+            bindings = <&kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp L &kp UNDER &kp N &mac_chshfast_102>;
         };
         mac_chshfast_102: mac_chshfast_102 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &kp SPACE &kp L &mac_chshfast_103>;
+            bindings = <&kp A &kp V &kp FSLH &kp E &kp N &kp T &kp E &kp R &kp SPACE &kp L &kp UNDER &kp S &kp Y &kp M &kp FSLH &kp S &kp P &kp A &kp C &kp E &mac_chshfast_103>;
         };
         mac_chshfast_103: mac_chshfast_103 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp UNDER &kp F &kp U &kp N &kp C &kp FSLH &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp RET &kp S &kp I &mac_chshfast_104>;
+            bindings = <&kp SPACE &kp L &kp UNDER &kp F &kp U &kp N &kp C &kp FSLH &kp B &kp A &kp C &kp K &kp S &kp P &kp A &kp C &kp E &kp RET &kp RET &kp RET &mac_chshfast_104>;
         };
         mac_chshfast_104: mac_chshfast_104 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp M &kp P &kp L &kp E &kp COLON &kp SPACE &kp A &kp L &kp L &kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp S &kp E &kp N &kp D &kp SPACE &mac_chshfast_105>;
+            bindings = <&kp S &kp I &kp M &kp P &kp L &kp E &kp COLON &kp SPACE &kp A &kp L &kp L &kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp S &kp E &kp N &mac_chshfast_105>;
         };
         mac_chshfast_105: mac_chshfast_105 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp O &kp N &kp L &kp Y &kp SPACE &kp W &kp H &kp A &kp T &kp SPACE &kp I &kp S &kp SPACE &kp T &kp H &kp E &kp I &kp R &kp SPACE &kp APOS &mac_chshfast_106>;
+            bindings = <&kp D &kp SPACE &kp O &kp N &kp L &kp Y &kp SPACE &kp W &kp H &kp A &kp T &kp SPACE &kp I &kp S &kp SPACE &kp T &kp H &kp E &kp I &kp R &mac_chshfast_106>;
         };
         mac_chshfast_106: mac_chshfast_106 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp N &kp A &kp M &kp E &kp APOS &kp SPACE &kp I &kp N &kp SPACE &kp T &kp H &kp E &kp SPACE &kp N4 &kp N0 &kp SPACE &kp K &kp E &kp Y &kp SPACE &mac_chshfast_107>;
+            bindings = <&kp SPACE &kp LT &kp N &kp A &kp M &kp E &kp GT &kp SPACE &kp I &kp N &kp SPACE &kp T &kp H &kp E &kp SPACE &kp N4 &kp N0 &kp SPACE &kp K &kp E &mac_chshfast_107>;
         };
         mac_chshfast_107: mac_chshfast_107 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp APOS &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp APOS &kp SPACE &kp S &kp T &kp A &kp N &kp D &kp A &kp R &kp D &kp I &mac_chshfast_108>;
+            bindings = <&kp Y &kp SPACE &kp LT &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp GT &kp SPACE &kp S &kp T &kp A &kp N &kp D &kp A &kp R &mac_chshfast_108>;
         };
         mac_chshfast_108: mac_chshfast_108 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp Z &kp A &kp T &kp I &kp O &kp N &kp RET &kp T &kp H &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp U &kp L &kp D &kp SPACE &kp B &mac_chshfast_109>;
+            bindings = <&kp D &kp I &kp Z &kp A &kp T &kp I &kp O &kp N &kp RET &kp T &kp H &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp U &kp L &kp D &mac_chshfast_109>;
         };
         mac_chshfast_109: mac_chshfast_109 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp E &kp SPACE &kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp O &kp N &kp SPACE &kp B &kp O &kp T &kp H &kp SPACE &mac_chshfast_110>;
+            bindings = <&kp SPACE &kp B &kp E &kp SPACE &kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp O &kp N &kp SPACE &kp B &kp O &kp T &mac_chshfast_110>;
         };
         mac_chshfast_110: mac_chshfast_110 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp Z &kp M &kp K &kp SPACE &kp A &kp N &kp D &kp SPACE &kp L &kp A &kp P &kp T &kp O &kp P &kp COMMA &kp SPACE &kp E &kp T &kp C &kp DOT &mac_chshfast_111>;
+            bindings = <&kp H &kp SPACE &kp Z &kp M &kp K &kp SPACE &kp A &kp N &kp D &kp SPACE &kp L &kp A &kp P &kp T &kp O &kp P &kp COMMA &kp SPACE &kp E &kp T &mac_chshfast_111>;
         };
         mac_chshfast_111: mac_chshfast_111 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp E &kp DOT &kp G &kp DOT &kp SPACE &kp N3 &kp SPACE &kp R &kp O &kp W &kp S &kp COMMA &kp SPACE &kp S &kp P &kp A &kp C &kp E &kp COMMA &mac_chshfast_112>;
+            bindings = <&kp C &kp DOT &kp SPACE &kp E &kp DOT &kp G &kp DOT &kp SPACE &kp N3 &kp SPACE &kp R &kp O &kp W &kp S &kp COMMA &kp SPACE &kp S &kp P &kp A &kp C &mac_chshfast_112>;
         };
         mac_chshfast_112: mac_chshfast_112 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp T &kp W &kp O &kp SPACE &kp T &kp H &kp U &kp M &kp B &kp S &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp E &kp N &kp T &mac_chshfast_113>;
+            bindings = <&kp E &kp COMMA &kp SPACE &kp T &kp W &kp O &kp SPACE &kp T &kp H &kp U &kp M &kp B &kp S &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE &kp E &mac_chshfast_113>;
         };
         mac_chshfast_113: mac_chshfast_113 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp E &kp R &kp RET &kp LPAR &kp P &kp L &kp U &kp S &kp SPACE &kp M &kp A &kp Y &kp B &kp E &kp SPACE &kp E &kp X &kp T &kp R &kp A &mac_chshfast_114>;
+            bindings = <&kp N &kp T &kp E &kp R &kp RET &kp LPAR &kp P &kp L &kp U &kp S &kp SPACE &kp M &kp A &kp Y &kp B &kp E &kp SPACE &kp E &kp X &kp T &mac_chshfast_114>;
         };
         mac_chshfast_114: mac_chshfast_114 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp M &kp I &kp G &kp H &kp T &kp SPACE &kp B &kp E &kp SPACE &mac_chshfast_115>;
+            bindings = <&kp R &kp A &kp SPACE &kp K &kp E &kp Y &kp S &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE &kp M &kp I &kp G &kp H &kp T &kp SPACE &kp B &mac_chshfast_115>;
         };
         mac_chshfast_115: mac_chshfast_115 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp B &kp U &kp T &kp SPACE &kp A &kp R &kp E &kp SPACE &kp N &kp O &mac_chshfast_116>;
+            bindings = <&kp E &kp SPACE &kp A &kp V &kp A &kp I &kp L &kp A &kp B &kp L &kp E &kp SPACE &kp B &kp U &kp T &kp SPACE &kp A &kp R &kp E &kp SPACE &mac_chshfast_116>;
         };
         mac_chshfast_116: mac_chshfast_116 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp T &kp SPACE &kp R &kp E &kp L &kp E &kp V &kp A &kp N &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp T &kp H &kp E &kp SPACE &kp S &mac_chshfast_117>;
+            bindings = <&kp N &kp O &kp T &kp SPACE &kp R &kp E &kp L &kp E &kp V &kp A &kp N &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp T &kp H &kp E &mac_chshfast_117>;
         };
         mac_chshfast_117: mac_chshfast_117 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp I &kp M &kp P &kp L &kp E &kp SPACE &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp RPAR &kp RET &kp RET &kp RET &kp EQUAL &kp EQUAL &mac_chshfast_118>;
+            bindings = <&kp SPACE &kp S &kp I &kp M &kp P &kp L &kp E &kp SPACE &kp B &kp A &kp S &kp E &kp L &kp I &kp N &kp E &kp RPAR &kp RET &kp RET &kp RET &mac_chshfast_118>;
         };
         mac_chshfast_118: mac_chshfast_118 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp APOS &kp RET>;
+            bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp APOS &kp RET>;
         };
 
 
@@ -1932,8 +1100,8 @@
 
        &none  &none &none &none &none &none       &kp UP_ARROW           &none &none &none &none &none &none
             &lt L_NAV ESC &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &kp Y &kp U &kp I &kp O &kp P &mt RGUI DEL
-            &mt LSHIFT TAB &kp A &kp S &kp D &kp F &kp G  &kp LEFT_ARROW    &kp H &kp J &kp K &kp L &kp SEMI &mt RSHIFT APOS
-            &kp LSHIFT &mt LCTRL Z &mt LALT X &kp C &kp V &kp B  &kp RIGHT_ARROW   &kp N &kp M &kp COMMA &mt RALT DOT &mt RCTRL FSLH &kp RSHIFT
+            &mt LCTRL TAB &kp A &kp S &kp D &mt LSHIFT F &kp G  &kp LEFT_ARROW    &kp H &mt RSHIFT J &kp K &kp L &kp SEMI &mt RCTRL APOS
+            &kp LSHIFT &kp Z &mt LALT X &kp C &kp V &kp B  &kp RIGHT_ARROW   &kp N &kp M &kp COMMA &mt RALT DOT &kp FSLH &kp RSHIFT
                                                   &kp C_MUTE
 &none &none     &mt LALT ESC &lt L_SYMNUM SPACE &lt L_NAV TAB  &kp ENTER         &lt L_NAV ENTER &lt L_SYMNUM SPACE &mt RALT BACKSPACE      &none &none
 
@@ -2011,9 +1179,9 @@
     bindings = <
 
        &none  &none &none &none &none &none       &kp UP_ARROW           &none &none &none &none &none &none
-            &kp ESC &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &to L_COLEMAK &to L_TEST &to L_MOUSE &to L_FUNC &to L_STUFF &kp DEL
+            &kp ESC &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &to L_COLEMAK &to L_SIMPLE &to L_MOUSE &to L_FUNC &to L_STUFF &kp DEL
             &caps_word &kp A &to L_FUNC &mt LCTRL D &mt LSHIFT F &kp G  &kp LEFT_ARROW    &kp X &mt LSHIFT J &mt LCTRL K &mt LALT L &kp SEMI &kp APOS
-            &kp LSHIFT &macro1 &mac_chshfast &mac_chshslow &macro4 &kp B  &kp RIGHT_ARROW   &kp N &to L_MOUSE &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
+            &kp LSHIFT &macro1 &mac_chshfast &mac_chshfast &macro4 &kp B  &kp RIGHT_ARROW   &kp N &to L_MOUSE &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
                                                   &kp C_MUTE
 &none &none     &kp LGUI &trans &lt L_MOUSE ESC  &kp ENTER         &lt L_NAV ENTER &lt L_SYMNUM SPACE &lt L_FUNC BACKSPACE      &none &none
 
@@ -2027,7 +1195,7 @@
     bindings = <
 
        &none  &none &none &none &none &none       &kp UP_ARROW           &none &none &none &none &none &none
-            &kp TAB &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &kp Y &kp U &kp I &kp O &kp P &kp RBKT
+            &kp TAB &kp Q &kp W &kp E &kp R &kp T  &kp UP_ARROW      &kp Y &kp U &kp I &kp O &kp P &kp LBKT
             &kp CAPS &kp A &kp S &kp D &kp F &kp G  &kp LEFT_ARROW    &kp H &kp J &kp K &kp L &kp SEMI &kp APOS
             &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B  &kp RIGHT_ARROW   &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
                                                   &kp C_MUTE
